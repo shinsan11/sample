@@ -1,4 +1,5 @@
-
+//１．マウスで各フレームのフィールド上の点と仮想フィールド上の点をを選び、対応点としてホモグラフィ変換を推定、変換
+//２．変換後、ズレがあったらマウスで任意の点をインタラクティブに動かしズレを補正する
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/calib3d/calib3d.hpp>
